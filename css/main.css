@@ -1,0 +1,276 @@
+body{
+    background-color: aqua;  
+}
+#nombre_empresa{
+text-align: center;
+background-color:rgba(255, 166, 0, 0.822);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(0, 0, 0);
+border: rgb(0, 0, 0);
+border-width: 1mm;
+border-style: solid;
+margin-left:  80mm;
+margin-right: 80mm;
+padding: 2mm;
+}
+#engranaje_1{
+    width: 32px;
+}
+#subtitulo{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+    border: yellow;
+    border-width: 1mm;
+    border-style: solid;
+    margin-left:  80mm;
+    margin-right: 80mm;
+    padding: 2mm;
+    
+}
+.lista_nav{
+    font-family: fantasy;
+    
+    
+    
+  
+      
+}
+.lista_nav ul{
+    list-style: none;
+    padding: 15px;
+   
+    
+}
+.lista_nav li{
+    float: left;
+    text-align: center;
+    background-color: rgb(85, 207, 191);
+    padding: 15px;
+    display: block;
+    width: 279px;
+    font-size: 115%;
+    
+}
+.lista_nav a{
+    text-decoration: none;
+    color: rgb(6, 69, 128);
+}
+.lista_nav li:hover{
+    display: block;
+    color: black;
+    opacity: 0.8;
+    background-color: rgb(28, 118, 236);
+
+}
+/**
+.lista_nav_columnas{
+ padding-left: 100px;
+ padding-right: 100px;   
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+**/
+body{
+    background-color:beige;
+}
+#pregunta_qs{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    color: rgb(36, 36, 110);
+}
+#respuesta_qs{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 125%;
+    color: rgb(19, 19, 20);
+}
+#mapa{
+   
+    text-align: center;}
+
+#tabla_qs{
+    text-align: left;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#titulo_tabla_qs{
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.sede_central{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+}
+.fabrica_ins{
+    width: 40%;
+}
+.fabrica2_ins{
+    width: 49%;
+}
+
+.fabrica3_ins{
+    width: 40%;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.fotos1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.video_dram{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.lista_servicios{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+}
+.lista_servicios li{
+    float: left;
+    text-align: center;
+    padding:50px;
+    display: block  ;
+    font-size: 150%;
+    
+}
+.lista_servicios img{
+   width: 500px;
+}
+.tabla_tienda{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse ;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.tabla_tienda th ,td{
+    padding: 15px;
+    
+}
+.tabla_tienda th{
+    border-bottom: solid 1px;
+    font-size: 200%;
+    
+}
+.tabla_tienda tr{
+    border-left: solid 1px ;
+    border-right: solid 1px;
+  
+}
+
+.prod_estrella{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80%;
+    border: 3px solid rgb(255, 255, 0);
+    border-radius: 25% 10%;
+    margin-right: 790px;
+    margin-left: 790px;
+    
+}
+.prod_estrella img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.tabla_tienda p{
+    font-style: italic;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(4, 167, 18)
+}
+.tabla_tienda button{
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.tabla_tienda tr img{
+    width: 450px;
+}
+#serie3mil{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-size: 100%;
+    
+}
+#otrasgpu{
+    border-top: solid 1px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150%;
+
+}
+.cesta{
+    text-align: right;
+    font-family: fantasy;
+    font-size: 200%;
+    
+    
+}
+.cesta li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 1650px;
+    background-color: orange;
+    padding: 15px;
+    float: left;
+    border-radius: 15px;
+    border-style: dashed;
+}
+.cesta li a{
+    text-decoration: none;
+    
+}
+.edificio{
+    text-align: center; 
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(219, 134, 37);
+}
+.edificio img{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulario{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(219, 134, 37);;
+}
+.li_contacto{
+    list-style: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(37, 86, 219);
+}
+.titulo_contacto{
+    font-size: 150%;
+    
+}
+.ff{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    font-style: bold;
+}
+.citas_izq{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    font-style: italic;
+}
+.citas_der{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 115%;
+    font-style: italic;
+
+}

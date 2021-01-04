@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Tecnova, líderes en informatica</title>
+</head>
+<body>
+
+    <h1 id="nombre_empresa"><img id="engranaje_1" src="img/engranaje_titulo.png"> TECNOVA <img id="engranaje_1" src="img/engranaje_titulo.png"></h1>
+    <h2 id="subtitulo">LÍDERES en gestión, desarrollo, planificación y diseño de proyectos del área de la Informática y Comunicaciones</h2>
+    
+    <!--MENU ANTIGUO CON TABLA
+    <table id="tabla_nav"  cellspacing="0" border="0px" align="center">
+
+        <tr>
+            <td class="tabla_nav_columnas" align="center"><a href="index.html"><img src="img/home_icon.png"><br>Inicio</a></td>
+    
+            <td class="tabla_nav_columnas" align="center"><a href="quienes_somos.html" ><img src="img/qs_icon.png"> <br> Quienes somos</a> </td>
+            <td class="tabla_nav_columnas" align="center"><a href="instalaciones.html"> <img src="img/instalaciones_icon.png"><br> Instalaciones </a> </td>
+            <td class="tabla_nav_columnas" align="center"><a href="servicios.html"><img src="img/servicios_icon.png"> <br>   Servicios </a></td>
+            <td class="tabla_nav_columnas" align="center"><a href="productos.html"><img src="img/prod_icon.png"> <br>   Productos</a></td>
+            <td class="tabla_nav_columnas" align="center"><a href="contacto.html"><img src="img/contacto_icon.png">  <br>  Contacto</a></td>
+        </tr>
+    
+    </table >
+    -->
+    
+    <nav class="lista_nav">
+
+        <ul>
+            <a href="index.html"><li><img src="img/home_icon.png"><br>Inicio</li></a>
+    
+            <a href="quienes_somos.html" > <li> <img src="img/qs_icon.png"> <br> Quienes somos </li></a>
+            <a href="instalaciones.html"> <li> <img src="img/instalaciones_icon.png"><br> Instalaciones  </li></a>
+            <a href="servicios.html"> <li> <img src="img/servicios_icon.png"> <br>   Servicios </li></a>
+            <a href="productos.html"> <li> <img src="img/prod_icon.png"> <br>   Productos</li></a>
+            <a href="contacto.html"> <li> <img src="img/contacto_icon.png">  <br>  Contacto</li></a>
+        </ul>
+    
+    </nav >
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p class="edificio">
+        NUESTRAS OFICINAS
+        <br><br>
+        <img src="img/edificio.png">
+    </p>
+    
+    <p>
+    <ul class="li_contacto">
+        <li class="titulo_contacto">CONTACTO</li>
+        <li>Dirección: Tecnova S.L , Sede Villaviciosa de Odón, Calle Tajo S/N Villaviciosa de Odón, Madrid</li> 
+        <li>Teléfono: 91 211 56 73</li> 
+        <li>Mail: staff@tecnova.es</li>
+    </ul>
+    </p>
+
+    <form class="formulario" action="mailto:raul.rodriguez@universidadeuropea.es" method="GET">
+        <fieldset>
+        <legend>DATOS DE CONTACTO</legend>
+        <p>
+            <label for="Nombre"> Nombre </label>
+            <input type="text" name="nombre">
+        
+        
+            <label for="Apellido1"> Apellido 1 </label>
+            <input type="text" name="nombre">
+        
+            <label for="Apellido2"> Apellido 2 </label>
+            <input type="text" name="Apellido2">
+        </p>
+        <p>
+            <label for="via"></label>   
+            <select name="via" >
+                <option>Calle</option>
+                <option>Avenida</option>
+                <option>Paseo</option>
+                <option>Camino</option>
+            </select>
+            <label for="nombrecalle"></label>
+            <input placeholder="Nombre de la vía" type="text" name="nombrecalle">
+            
+            <label for="numero">Nº</label>
+            <input type="number" name="numero">
+
+            <label for="cp">Codigo Postal</label>
+            <input type="number" name="cp">
+        </p>
+        <p>
+            <label for="mail">Correo Electrónico</label>
+            <input type="email" name="mail">
+
+        </p>
+        <p>
+            <label for="tlf">Teléfono Movil</label>
+            <input type="tel">
+            
+        </p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>ASUNTO</legend>
+            <input type="checkbox" value="valores">Fabricacion de memorias RAM <br>
+            <input type="checkbox" value="valores">Fabricacion de otros componentes de ordenador <br>
+            <input type="checkbox" value="valores">Fabricacion de memorias RAM <br>
+            <input type="checkbox" value="valores">Fabricacion y ensamblaje de ordenadores por marca <br>
+            <input type="checkbox" value="valores">Fabricacion al pormayor <br>
+            <input type="checkbox" value="valores">Venta al pormenor <br>
+            <input type="checkbox" value="valores">Problema con venta en tienda 
+            <br><br>
+            <textarea name="comentarios" placeholder="Escribe aqui tus comentarios" cols="60" rows="10"></textarea>
+        </fieldset>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <input type="file" name="adjuntar" accept=".pdf" multiple>
+        </p>
+
+        
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>  
